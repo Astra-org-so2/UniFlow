@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StudentOS</string>
+
+    <!-- Navigation -->
+    <string name="nav_today">Сегодня</string>
+    <string name="nav_schedule">Расписание</string>
+    <string name="nav_tasks">Задачи</string>
+    <string name="nav_study">Учёба</string>
+    <string name="nav_analytics">Статистика</string>
+
+    <!-- Today -->
+    <string name="today_greeting">Доброе утро</string>
+    <string name="today_next_class">СЛЕДУЮЩАЯ ПАРА</string>
+    <string name="today_happening_now">СЕЙЧАС ИДЁТ</string>
+    <string name="today_schedule">Расписание на сегодня</string>
+    <string name="today_tasks">Ближайшие задачи</string>
+    <string name="today_exams">Экзамены</string>
+    <string name="today_best_action">ЛУЧШЕЕ ДЕЙСТВИЕ</string>
+    <string name="today_empty">Сегодня пар нет</string>
+    <string name="today_empty_desc">Нет занятий или задач на сегодня.</string>
+    <string name="attendance_warning">Посещаемость %1$s: %2$d%%</string>
+    <string name="safe_absences">Можно пропустить ещё: %1$d</string>
+
+    <!-- Schedule -->
+    <string name="schedule_title">Расписание</string>
+    <string name="schedule_add">Добавить пару</string>
+    <string name="schedule_edit">Редактировать пару</string>
+    <string name="schedule_no_classes">Нет занятий</string>
+    <string name="schedule_day">День</string>
+    <string name="schedule_week">Неделя</string>
+    <string name="schedule_month">Месяц</string>
+    <string name="schedule_subject">Предмет</string>
+    <string name="schedule_teacher">Преподаватель</string>
+    <string name="schedule_room">Аудитория</string>
+    <string name="schedule_building">Корпус</string>
+    <string name="schedule_start_time">Начало</string>
+    <string name="schedule_end_time">Конец</string>
+    <string name="schedule_day_of_week">День недели</string>
+    <string name="schedule_type">Тип занятия</string>
+    <string name="schedule_recurrence">Повтор</string>
+    <string name="schedule_semester_start">Начало семестра</string>
+    <string name="schedule_semester_end">Конец семестра</string>
+
+    <!-- Class types -->
+    <string name="class_lecture">Лекция</string>
+    <string name="class_practice">Практика</string>
+    <string name="class_lab">Лабораторная</string>
+    <string name="class_seminar">Семинар</string>
+    <string name="class_other">Другое</string>
+
+    <!-- Tasks -->
+    <string name="tasks_title">Задачи</string>
+    <string name="tasks_add">Добавить задачу</string>
+    <string name="tasks_empty">Нет задач</string>
+    <string name="tasks_empty_desc">Добавьте первую задачу, чтобы не пропускать дедлайны.</string>
+    <string name="tasks_search">Поиск задач…</string>
+    <string name="tasks_all">Все</string>
+    <string name="tasks_today">Сегодня</string>
+    <string name="tasks_tomorrow">Завтра</string>
+    <string name="tasks_this_week">Эта неделя</string>
+    <string name="tasks_overdue">Просроченные</string>
+    <string name="tasks_complete">Выполнено</string>
+    <string name="tasks_overdue_label">Просрочено</string>
+    <string name="tasks_due_today">Срок сегодня</string>
+    <string name="tasks_due_tomorrow">Срок завтра</string>
+    <string name="tasks_due_in_days">Через %1$dд</string>
+
+    <!-- Task fields -->
+    <string name="task_title">Название</string>
+    <string name="task_description">Описание</string>
+    <string name="task_deadline">Дедлайн</string>
+    <string name="task_priority">Приоритет</string>
+    <string name="task_duration">Время (мин)</string>
+    <string name="task_status">Статус</string>
+    <string name="task_subject">Предмет</string>
+
+    <!-- Priority -->
+    <string name="priority_low">Низкий</string>
+    <string name="priority_medium">Средний</string>
+    <string name="priority_high">Высокий</string>
+    <string name="priority_urgent">Срочный</string>
+
+    <!-- Status -->
+    <string name="status_todo">К выполнению</string>
+    <string name="status_in_progress">В работе</string>
+    <string name="status_done">Выполнено</string>
+    <string name="status_overdue">Просрочено</string>
+
+    <!-- Study -->
+    <string name="study_title">Учёба</string>
+    <string name="study_subjects">Предметы</string>
+    <string name="study_teachers">Преподаватели</string>
+    <string name="study_grades">Оценки</string>
+    <string name="study_exams">Экзамены</string>
+    <string name="study_attendance">Посещаемость</string>
+    <string name="study_notes">Заметки</string>
+
+    <!-- Subjects -->
+    <string name="subjects_title">Предметы</string>
+    <string name="subjects_add">Добавить предмет</string>
+    <string name="subjects_empty">Нет предметов</string>
+    <string name="subjects_empty_desc">Добавьте первый предмет, чтобы начать отслеживание.</string>
+    <string name="subject_name">Название предмета</string>
+    <string name="subject_short_name">Сокращение</string>
+    <string name="subject_type">Тип предмета</string>
+
+    <!-- Teachers -->
+    <string name="teachers_title">Преподаватели</string>
+    <string name="teachers_add">Добавить преподавателя</string>
+    <string name="teachers_empty">Нет преподавателей</string>
+    <string name="teacher_name">Имя преподавателя</string>
+    <string name="teacher_email">Email</string>
+    <string name="teacher_phone">Телефон</string>
+    <string name="teacher_department">Кафедра</string>
+
+    <!-- Grades -->
+    <string name="grades_title">Оценки</string>
+    <string name="grades_add">Добавить оценку</string>
+    <string name="grades_empty">Нет оценок</string>
+    <string name="grades_average">Средний балл</string>
+    <string name="grades_weighted_average">Взвешенный средний</string>
+    <string name="grades_current">Текущая оценка</string>
+    <string name="grades_required_exam">Нужно на экзамене</string>
+    <string name="grades_required_msg">Для оценки %1$s нужно минимум %2$d%% на экзамене.</string>
+
+    <!-- Grade categories -->
+    <string name="grade_homework">Домашняя работа</string>
+    <string name="grade_test">Контрольная</string>
+    <string name="grade_lab">Лабораторная</string>
+    <string name="grade_exam">Экзамен</string>
+    <string name="grade_project">Проект</string>
+    <string name="grade_other">Другое</string>
+
+    <!-- Attendance -->
+    <string name="attendance_title">Посещаемость</string>
+    <string name="attendance_add">Отметить посещение</string>
+    <string name="attendance_empty">Нет записей</string>
+    <string name="attendance_present">Присутствовал</string>
+    <string name="attendance_absent">Отсутствовал</string>
+    <string name="attendance_excused">Уважительная</string>
+    <string name="attendance_late">Опоздание</string>
+    <string name="attendance_total">Всего занятий</string>
+    <string name="attendance_percentage">Посещаемость</string>
+    <string name="attendance_safe_absences">Можно ещё пропустить</string>
+
+    <!-- Exams -->
+    <string name="exams_title">Экзамены</string>
+    <string name="exams_add">Добавить экзамен</string>
+    <string name="exams_empty">Нет запланированных экзаменов</string>
+    <string name="exams_days_left">Осталось %1$dд</string>
+    <string name="exam_type">Тип экзамена</string>
+    <string name="exam_date">Дата</string>
+    <string name="exam_time">Время</string>
+    <string name="exam_room">Аудитория</string>
+    <string name="exam_preparation">Подготовка</string>
+
+    <!-- Exam types -->
+    <string name="exam_exam">Экзамен</string>
+    <string name="exam_credit">Зачёт</string>
+    <string name="exam_diff_credit">Дифференцированный зачёт</string>
+    <string name="exam_coursework">Защита курсовой</string>
+
+    <!-- Notes -->
+    <string name="notes_title">Заметки</string>
+    <string name="notes_add">Добавить заметку</string>
+    <string name="notes_empty">Нет заметок</string>
+    <string name="notes_empty_desc">Добавьте первую заметку, чтобы сохранить идеи.</string>
+    <string name="notes_search">Поиск заметок…</string>
+
+    <!-- Analytics -->
+    <string name="analytics_title">Аналитика</string>
+    <string name="analytics_period_week">Неделя</string>
+    <string name="analytics_period_month">Месяц</string>
+    <string name="analytics_period_semester">Семестр</string>
+    <string name="analytics_overview_attendance">Посещаемость</string>
+    <string name="analytics_overview_average">Средний балл</string>
+    <string name="analytics_overview_tasks_done">Выполнено</string>
+    <string name="analytics_overview_overdue">Просрочено</string>
+    <string name="analytics_by_subject">По предметам</string>
+    <string name="analytics_attendance_overview">Посещаемость</string>
+    <string name="analytics_empty">Нет данных</string>
+    <string name="analytics_empty_desc">Добавьте предметы, посещайте занятия и выполняйте задачи.</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_welcome">Добро пожаловать в StudentOS</string>
+    <string name="onboarding_welcome_desc">Ваша персональная операционная система для учёбы.\nРасписание, задачи, оценки и многое другое — всё офлайн, всё приватно.</string>
+    <string name="onboarding_about">О вас</string>
+    <string name="onboarding_about_desc">Давайте настроим приложение.</string>
+    <string name="onboarding_name">Ваше имя</string>
+    <string name="onboarding_university">Университет</string>
+    <string name="onboarding_faculty">Факультет</string>
+    <string name="onboarding_group">Группа</string>
+    <string name="onboarding_course">Курс</string>
+    <string name="onboarding_semester">Семестр</string>
+    <string name="onboarding_done">Всё готово!</string>
+    <string name="onboarding_done_desc">Начните добавлять предметы, расписание и задачи.\nВсё работает офлайн. Данные остаются на вашем устройстве.</string>
+    <string name="onboarding_get_started">Начать</string>
+    <string name="onboarding_continue">Далее</string>
+    <string name="onboarding_finish">Начать пользоваться StudentOS</string>
+    <string name="onboarding_skip">Пропустить</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Настройки</string>
+    <string name="settings_profile">Профиль студента</string>
+    <string name="settings_profile_desc">Имя, университет, курс, группа</string>
+    <string name="settings_semester">Настройки семестра</string>
+    <string name="settings_backup">Резервное копирование</string>
+    <string name="settings_import">Импорт</string>
+    <string name="settings_theme">Тема</string>
+    <string name="settings_language">Язык</string>
+    <string name="settings_notifications">Уведомления</string>
+    <string name="settings_app_lock">Блокировка</string>
+    <string name="settings_ai">AI-провайдер</string>
+    <string name="settings_ai_chat">AI-чат</string>
+    <string name="settings_about">О приложении</string>
+
+    <!-- General -->
+    <string name="save">Сохранить</string>
+    <string name="cancel">Отмена</string>
+    <string name="delete">Удалить</string>
+    <string name="edit">Редактировать</string>
+    <string name="duplicate">Дублировать</string>
+    <string name="confirm">Подтвердить</string>
+    <string name="search">Поиск…</string>
+    <string name="see_all">Все</string>
+    <string name="no_data">Нет данных</string>
+    <string name="error_generic">Что-то пошло не так</string>
+    <string name="error_database">Ошибка базы данных</string>
+    <string name="error_import">Ошибка импорта</string>
+    <string name="loading">Загрузка…</string>
+
+    <!-- Days of week -->
+    <string name="monday">Понедельник</string>
+    <string name="tuesday">Вторник</string>
+    <string name="wednesday">Среда</string>
+    <string name="thursday">Четверг</string>
+    <string name="friday">Пятница</string>
+    <string name="saturday">Суббота</string>
+    <string name="sunday">Воскресенье</string>
+
+    <!-- Widget -->
+    <string name="widget_next_class">Следующая пара</string>
+    <string name="widget_tasks">Задачи</string>
+    <string name="widget_no_class">Нет ближайших пар</string>
+    <string name="widget_no_tasks">Нет задач</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_class">Напоминания о парах</string>
+    <string name="notification_channel_deadline">Дедлайны</string>
+    <string name="notification_channel_exam">Экзамены</string>
+    <string name="notification_channel_attendance">Посещаемость</string>
+    <string name="notification_class_title">Скоро: %1$s</string>
+    <string name="notification_class_text">%1$s — %2$s, ауд. %3$s</string>
+    <string name="notification_deadline_title">Скоро дедлайн: %1$s</string>
+    <string name="notification_deadline_text">Срок %1$s</string>
+    <string name="notification_exam_title">Экзамен через %1$d дн.: %2$s</string>
+    <string name="notification_attendance_title">Проблема с посещаемостью</string>
+    <string name="notification_attendance_text">Посещаемость %1$s: %2$d%%</string>
+
+    <!-- Backup -->
+    <string name="backup_title">Резервное копирование</string>
+    <string name="backup_create">Создать копию</string>
+    <string name="backup_restore">Восстановить</string>
+    <string name="backup_success">Копия создана</string>
+    <string name="backup_restore_success">Данные восстановлены</string>
+    <string name="backup_error">Ошибка копирования</string>
+</resources>
